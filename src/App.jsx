@@ -565,7 +565,7 @@ function Onboarding({ onComplete }) {
 }
 
 // ─── ROOT ─────────────────────────────────────────────────────────────────────
-export default function SageV5() {
+export default function App() {
   const [authUser, setAuthUser]         = useState(null);
   const [authChecked, setAuthChecked]   = useState(false);
   const [localMode, setLocalMode]       = useState(false);
