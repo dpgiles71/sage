@@ -5,7 +5,7 @@ import { useState, useRef, useEffect, useCallback } from "react";
   ║  SAGE v5 — PRODUCTION READY                             ║
   ║  Before deploying, replace these 4 values:              ║
   ║                                                          ║
-  ║  1. FIREBASE_CONiFIG   → your Firebase project config    ║
+  ║  1. FIREBASE_CONFIG   → your Firebase project config    ║
   ║  2. STRIPE_GROWTH_URL → your Stripe $19/mo payment link ║
   ║  3. STRIPE_BLOOM_URL  → your Stripe $49/mo payment link ║
   ║  4. GA_MEASUREMENT_ID → your Google Analytics ID        ║
@@ -565,7 +565,7 @@ function Onboarding({ onComplete }) {
 }
 
 // ─── ROOT ─────────────────────────────────────────────────────────────────────
-export default function App() {
+export default function SageV5() {
   const [authUser, setAuthUser]         = useState(null);
   const [authChecked, setAuthChecked]   = useState(false);
   const [localMode, setLocalMode]       = useState(false);
