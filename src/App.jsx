@@ -14,12 +14,12 @@ import { useState, useRef, useEffect, useCallback } from "react";
 
 // ─── YOUR CONFIG — replace these ─────────────────────────────────────────────
 const FIREBASE_CONFIG = {
-  apiKey:            "YOUR_FIREBASE_API_KEY",
-  authDomain:        "YOUR_PROJECT.firebaseapp.com",
-  projectId:         "YOUR_PROJECT_ID",
-  storageBucket:     "YOUR_PROJECT.appspot.com",
-  messagingSenderId: "YOUR_SENDER_ID",
-  appId:             "YOUR_APP_ID",
+  apiKey:            "AIzaSyBEMJG33SBdXhmIpyyLI2IUi6uVXXfdLGY",
+  authDomain:        "sage-wellness-85f25.firebaseapp.com",
+  projectId:         "sage-wellness-85f25",
+  storageBucket:     "sage-wellness-85f25.firebasestorage.app",
+  messagingSenderId: "725578123915",
+  appId:             "1:725578123915:web:3948b097164d9372c7a28e",
 };
 const STRIPE_GROWTH_URL = "https://buy.stripe.com/YOUR_GROWTH_LINK";
 const STRIPE_BLOOM_URL  = "https://buy.stripe.com/YOUR_BLOOM_LINK";
